@@ -118,3 +118,39 @@ body {
     flex: 1;
     padding: 40px;
 }
+
+
+/* =================================
+   TOP BAR
+================================= */
+
+.top-bar {
+    padding-bottom: 25px;
+    border-bottom: 1px solid #1f2937;
+    margin-bottom: 30px;
+}
+
+.top-bar h1 {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.top-bar p {
+    color: #9ca3af;
+    font-size: 14px;
+}
+
+
+/* =================================
+   DASHBOARD CONTENT
+================================= */
+
+.dashboard-content h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.dashboard-content p {
+    color: #9ca3af;
+    font-size: 14px;
+}
