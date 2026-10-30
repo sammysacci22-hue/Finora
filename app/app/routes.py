@@ -1,11 +1,11 @@
-from flask import Blueprint
+from flask import Blueprint, render_template
 
 main = Blueprint('main', __name__)
 
 
 @main.route('/')
 def dashboard():
-    return "Welcome to Finora!"
+    return render_template('index.html')
 
 
 @main.route('/transactions')
