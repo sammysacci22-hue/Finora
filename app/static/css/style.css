@@ -13,3 +13,108 @@ body {
     background-color: #0b1120;
     color: #ffffff;
 }
+
+
+/* =================================
+   DASHBOARD LAYOUT
+================================= */
+
+.dashboard-container {
+    display: flex;
+    min-height: 100vh;
+}
+
+
+/* =================================
+   SIDEBAR
+================================= */
+
+.sidebar {
+    width: 250px;
+    background-color: #111827;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #1f2937;
+}
+
+
+/* LOGO */
+
+.logo {
+    margin-bottom: 45px;
+}
+
+.logo h2 {
+    font-size: 28px;
+    color: #ffffff;
+}
+
+.logo span {
+    color: #10b981;
+}
+
+.logo p {
+    font-size: 11px;
+    color: #9ca3af;
+    margin-top: 5px;
+}
+
+
+/* NAVIGATION */
+
+.nav-heading {
+    font-size: 11px;
+    color: #6b7280;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+.sidebar-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.nav-link {
+    display: block;
+    text-decoration: none;
+    color: #9ca3af;
+    padding: 12px 15px;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+
+/* HOVER EFFECT */
+
+.nav-link:hover {
+    background-color: #1f2937;
+    color: #ffffff;
+}
+
+
+/* ACTIVE LINK */
+
+.nav-link.active {
+    background-color: #064e3b;
+    color: #34d399;
+}
+
+
+/* SIDEBAR BOTTOM */
+
+.sidebar-bottom {
+    margin-top: auto;
+}
+
+
+/* =================================
+   MAIN CONTENT
+================================= */
+
+.main-content {
+    flex: 1;
+    padding: 40px;
+}
