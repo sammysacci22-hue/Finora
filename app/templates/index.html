@@ -6,14 +6,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Finora | Your Finances, Your Future</title>
+
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 
 <body>
 
-    <h1>Welcome to Finora</h1>
+    <div class="dashboard-container">
 
-    <p>Your finances. Your future.</p>
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+
+            <div class="logo">
+                <h2>Finora<span>.</span></h2>
+                <p>Your finances. Your future.</p>
+            </div>
+
+            <nav class="sidebar-nav">
+
+                <p class="nav-heading">MENU</p>
+
+                <a href="/" class="nav-link active">
+                    Dashboard
+                </a>
+
+                <a href="/transactions" class="nav-link">
+                    Transactions
+                </a>
+
+                <a href="/budgets" class="nav-link">
+                    Budgets
+                </a>
+
+                <a href="#" class="nav-link">
+                    Savings Goals
+                </a>
+
+                <a href="#" class="nav-link">
+                    Accounts
+                </a>
+
+                <a href="#" class="nav-link">
+                    Reports
+                </a>
+
+            </nav>
+
+            <div class="sidebar-bottom">
+                <a href="#" class="nav-link">Settings</a>
+            </div>
+
+        </aside>
+
+        <!-- MAIN CONTENT -->
+        <main class="main-content">
+
+            <h1>Welcome to Finora</h1>
+            <p>Your financial journey starts here.</p>
+
+        </main>
+
+    </div>
 
 </body>
 
