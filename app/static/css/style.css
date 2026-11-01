@@ -215,4 +215,85 @@ body {
         grid-template-columns: 1fr;
     }
 
+   /* =================================
+   RECENT TRANSACTIONS
+================================= */
+
+.recent-transactions {
+    margin-top: 40px;
+    background-color: #111827;
+    border: 1px solid #1f2937;
+    border-radius: 12px;
+    padding: 25px;
+}
+
+
+/* SECTION HEADING */
+
+.section-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.section-heading h2 {
+    font-size: 18px;
+}
+
+.section-heading a {
+    color: #10b981;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.section-heading a:hover {
+    color: #34d399;
+}
+
+
+/* TRANSACTION ITEMS */
+
+.transaction-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.transaction-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 0;
+    border-bottom: 1px solid #1f2937;
+}
+
+.transaction-item:last-child {
+    border-bottom: none;
+}
+
+.transaction-item h3 {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.transaction-item p {
+    color: #9ca3af;
+    font-size: 12px;
+}
+
+
+/* INCOME AND EXPENSE COLOURS */
+
+.income {
+    color: #34d399;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.expense {
+    color: #f87171;
+    font-size: 14px;
+    font-weight: 600;
+}
+
 }
