@@ -297,3 +297,67 @@ body {
 }
 
 }
+
+/* =================================
+   TRANSACTIONS PAGE
+================================= */
+
+.transactions-heading {
+    margin-bottom: 25px;
+}
+
+.transactions-heading h2 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.transactions-heading p {
+    color: #9ca3af;
+    font-size: 14px;
+}
+
+
+/* TABLE CONTAINER */
+
+.transactions-table-container {
+    background-color: #111827;
+    border: 1px solid #1f2937;
+    border-radius: 12px;
+    padding: 10px;
+    overflow-x: auto;
+}
+
+
+/* TRANSACTIONS TABLE */
+
+.transactions-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.transactions-table th {
+    color: #9ca3af;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 18px 15px;
+    border-bottom: 1px solid #1f2937;
+}
+
+.transactions-table td {
+    padding: 20px 15px;
+    font-size: 13px;
+    border-bottom: 1px solid #1f2937;
+    white-space: nowrap;
+}
+
+.transactions-table tr:last-child td {
+    border-bottom: none;
+}
+
+
+/* TABLE ROW HOVER */
+
+.transactions-table tbody tr:hover {
+    background-color: #1f2937;
+}
