@@ -184,3 +184,35 @@ body {
     font-size: 24px;
     font-weight: 600;
 }
+
+/* =================================
+   RESPONSIVE DESIGN
+================================= */
+
+/* Tablets and smaller laptops */
+@media (max-width: 1000px) {
+
+    .summary-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+
+/* Mobile phones */
+@media (max-width: 600px) {
+
+    .sidebar {
+        width: 180px;
+        padding: 20px 10px;
+    }
+
+    .main-content {
+        padding: 20px;
+    }
+
+    .summary-cards {
+        grid-template-columns: 1fr;
+    }
+
+}
