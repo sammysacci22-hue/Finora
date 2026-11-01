@@ -449,3 +449,30 @@ body {
 .submit-btn {
     width: 100%;
 }
+
+/* =================================
+   FORM BUTTONS
+================================= */
+
+.form-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.cancel-btn {
+    background-color: transparent;
+    color: #9ca3af;
+    border: 1px solid #374151;
+    padding: 12px 18px;
+    border-radius: 8px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.cancel-btn:hover {
+    background-color: #1f2937;
+    color: #ffffff;
+}
