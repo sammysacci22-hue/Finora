@@ -62,7 +62,7 @@
     <div class="transactions-heading">
        <!-- ADD TRANSACTION FORM -->
 
-<div class="transaction-form-container">
+<div class="transaction-form-container" id="transactionForm" style="display: none;">
 
     <h2>Add New Transaction</h2>
 
@@ -126,9 +126,17 @@
             >
         </div>
 
-        <button type="submit" class="submit-btn">
-            Save Transaction
-        </button>
+     <div class="form-buttons">
+
+    <button type="button" class="cancel-btn" onclick="toggleForm()">
+        Cancel
+    </button>
+
+    <button type="submit" class="submit-btn">
+        Save Transaction
+    </button>
+
+</div>   
 
     </form>
 
@@ -139,9 +147,9 @@
         <p>View and monitor your financial activity.</p>
     </div>
 
-    <button class="add-transaction-btn">
-        + Add Transaction
-    </button>
+   <button class="add-transaction-btn" onclick="toggleForm()">
+    + Add Transaction
+</button>
 
 </div>
 
