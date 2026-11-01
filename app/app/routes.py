@@ -10,7 +10,7 @@ def dashboard():
 
 @main.route('/transactions')
 def transactions():
-    return "Finora Transactions"
+    return render_template('transactions.html')
 
 
 @main.route('/budgets')
