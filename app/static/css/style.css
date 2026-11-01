@@ -361,3 +361,91 @@ body {
 .transactions-table tbody tr:hover {
     background-color: #1f2937;
 }
+
+/* =================================
+   TRANSACTION FORM
+================================= */
+
+.transactions-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+
+/* ADD TRANSACTION BUTTON */
+
+.add-transaction-btn,
+.submit-btn {
+    background-color: #059669;
+    color: #ffffff;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 8px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.add-transaction-btn:hover,
+.submit-btn:hover {
+    background-color: #047857;
+}
+
+
+/* FORM CONTAINER */
+
+.transaction-form-container {
+    background-color: #111827;
+    border: 1px solid #1f2937;
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 30px;
+}
+
+.transaction-form-container h2 {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+
+/* FORM GROUPS */
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    color: #d1d5db;
+    font-size: 13px;
+}
+
+.form-group input,
+.form-group select {
+    background-color: #0b1120;
+    color: #ffffff;
+    border: 1px solid #374151;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 13px;
+    outline: none;
+}
+
+
+/* INPUT FOCUS */
+
+.form-group input:focus,
+.form-group select:focus {
+    border-color: #10b981;
+}
+
+
+/* SUBMIT BUTTON */
+
+.submit-btn {
+    width: 100%;
+}
